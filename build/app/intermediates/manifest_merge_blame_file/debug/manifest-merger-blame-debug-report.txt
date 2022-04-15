@@ -1,0 +1,426 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hospital_finance_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Jeet\doctorPay\hospital_finance_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Jeet\doctorPay\hospital_finance_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->[:twitter_login] C:\Users\Jeet\doctorPay\hospital_finance_app\build\twitter_login\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-11:15
+17        <intent>
+17-->[:twitter_login] C:\Users\Jeet\doctorPay\hospital_finance_app\build\twitter_login\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+18            <action android:name="android.support.customtabs.action.CustomTabsService" />
+18-->[:twitter_login] C:\Users\Jeet\doctorPay\hospital_finance_app\build\twitter_login\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+18-->[:twitter_login] C:\Users\Jeet\doctorPay\hospital_finance_app\build\twitter_login\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+19        </intent>
+20    </queries>
+21
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+22-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\cbcf378067f1cc4cfc89cff1cfdb3d07\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:5-68
+23-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\cbcf378067f1cc4cfc89cff1cfdb3d07\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+24-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:22-107
+25    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+25-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\5716d6fa34d7cbbd504bc33d7a81eabd\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+25-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\5716d6fa34d7cbbd504bc33d7a81eabd\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+26
+27    <application
+28        android:name="android.app.Application"
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.6.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b5eb0fd05a3dc37f0eecb21874e1998c\core-1.6.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+32        android:label="hospital_finance_app"
+33        android:supportsRtl="true" >
+33-->[com.facebook.android:facebook-login:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\83adb52177d03113a8d2fa585108088c\jetified-facebook-login-12.1.0\AndroidManifest.xml:28:18-44
+34        <activity
+35            android:name="com.example.hospital_finance_app.MainActivity"
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37            android:exported="true"
+38            android:hardwareAccelerated="true"
+39            android:launchMode="singleTop"
+40            android:theme="@style/LaunchTheme"
+41            android:windowSoftInputMode="adjustResize" >
+42
+43            <!--
+44                 Specifies an Android theme to apply to this Activity as soon as
+45                 the Android process has started. This theme is visible to the user
+46                 while the Flutter UI initializes. After that, this theme continues
+47                 to determine the Window background behind the Flutter UI.
+48            -->
+49            <meta-data
+50                android:name="io.flutter.embedding.android.NormalTheme"
+51                android:resource="@style/NormalTheme" />
+52
+53            <intent-filter>
+54                <action android:name="android.intent.action.MAIN" />
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+57            </intent-filter>
+58        </activity>
+59        <!--
+60             Don't delete the meta-data below.
+61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+64            android:name="flutterEmbedding"
+65            android:value="2" />
+66
+67        <service
+67-->[:firebase_auth] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[:firebase_auth] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\187070fed61dc6baf38c8df97b241c2a\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+70            android:exported="false" >
+70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+71            <meta-data
+71-->[:firebase_auth] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+72-->[:firebase_auth] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:firebase_auth] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+74            <meta-data
+74-->[:firebase_database] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+75-->[:firebase_database] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:firebase_database] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+77            <meta-data
+77-->[:cloud_firestore] C:\Users\Jeet\doctorPay\hospital_finance_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+78-->[:cloud_firestore] C:\Users\Jeet\doctorPay\hospital_finance_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:cloud_firestore] C:\Users\Jeet\doctorPay\hospital_finance_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[:firebase_dynamic_links] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-13:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+81-->[:firebase_dynamic_links] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:12:17-131
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_dynamic_links] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:13:17-82
+83            <meta-data
+83-->[:firebase_core] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+84-->[:firebase_core] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:firebase_core] C:\Users\Jeet\doctorPay\hospital_finance_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\796e3b745a01eace57b779348df04b91\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+90                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+90-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\796e3b745a01eace57b779348df04b91\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\796e3b745a01eace57b779348df04b91\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-dynamic-links:21.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\4f9dd27922e0746748cde74dc5d9a64f\jetified-firebase-dynamic-links-21.0.0\AndroidManifest.xml:27:13-29:85
+93                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+93-->[com.google.firebase:firebase-dynamic-links:21.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\4f9dd27922e0746748cde74dc5d9a64f\jetified-firebase-dynamic-links-21.0.0\AndroidManifest.xml:28:17-133
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-dynamic-links:21.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\4f9dd27922e0746748cde74dc5d9a64f\jetified-firebase-dynamic-links-21.0.0\AndroidManifest.xml:29:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\a6c898869bf011e349b14cdeba4c5de8\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+96                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+96-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\a6c898869bf011e349b14cdeba4c5de8\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\a6c898869bf011e349b14cdeba4c5de8\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+98            <meta-data
+98-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\cbcf378067f1cc4cfc89cff1cfdb3d07\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:30:13-32:85
+99                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+99-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\cbcf378067f1cc4cfc89cff1cfdb3d07\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:31:17-139
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\cbcf378067f1cc4cfc89cff1cfdb3d07\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:32:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\3720012dc36fedbb8ea6380b2aaa26dd\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+102                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+102-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\3720012dc36fedbb8ea6380b2aaa26dd\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\3720012dc36fedbb8ea6380b2aaa26dd\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+104        </service>
+105
+106        <activity android:name="com.maru.twitter_login.chrome_custom_tabs.ChromeCustomTabsActivity" />
+106-->[:twitter_login] C:\Users\Jeet\doctorPay\hospital_finance_app\build\twitter_login\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-103
+106-->[:twitter_login] C:\Users\Jeet\doctorPay\hospital_finance_app\build\twitter_login\intermediates\library_manifest\debug\AndroidManifest.xml:14:19-100
+107        <activity
+107-->[:url_launcher_android] C:\Users\Jeet\doctorPay\hospital_finance_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+108            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+108-->[:url_launcher_android] C:\Users\Jeet\doctorPay\hospital_finance_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+109            android:exported="false"
+109-->[:url_launcher_android] C:\Users\Jeet\doctorPay\hospital_finance_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+110            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+110-->[:url_launcher_android] C:\Users\Jeet\doctorPay\hospital_finance_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+111        <activity
+111-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:30:9-33:66
+112            android:name="com.facebook.FacebookActivity"
+112-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:31:13-57
+113            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+113-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:32:13-96
+114            android:theme="@style/com_facebook_activity_theme" />
+114-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:33:13-63
+115        <activity android:name="com.facebook.CustomTabMainActivity" />
+115-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:34:9-71
+115-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:34:19-68
+116        <activity
+116-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:35:9-49:20
+117            android:name="com.facebook.CustomTabActivity"
+117-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:36:13-58
+118            android:exported="true" >
+118-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:37:13-36
+119            <intent-filter>
+119-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:39:13-48:29
+120                <action android:name="android.intent.action.VIEW" />
+120-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:17-69
+120-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:25-66
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:17-76
+122-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:27-73
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:17-78
+123-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:27-75
+124
+125                <data
+125-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:45:17-47:50
+126                    android:host="cct.com.example.hospital_finance_app"
+126-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:46:21-56
+127                    android:scheme="fbconnect" />
+127-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:47:21-47
+128            </intent-filter>
+129        </activity>
+130        <!--
+131         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+132         with the application context. This config is merged in with the host app's manifest,
+133         but there can only be one provider with the same authority activated at any given
+134         point; so if the end user has two or more different apps that use Facebook SDK, only the
+135         first one will be able to use the provider. To work around this problem, we use the
+136         following placeholder in the authority to identify each host application as if it was
+137         a completely different provider.
+138        -->
+139        <provider
+139-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:39:9-42:40
+140            android:name="com.facebook.internal.FacebookInitProvider"
+140-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:40:13-70
+141            android:authorities="com.example.hospital_finance_app.FacebookInitProvider"
+141-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:41:13-72
+142            android:exported="false" />
+142-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:42:13-37
+143
+144        <receiver
+144-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:44:9-50:20
+145            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+145-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:45:13-86
+146            android:exported="false" >
+146-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:46:13-37
+147            <intent-filter>
+147-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:47:13-49:29
+148                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+148-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:48:17-95
+148-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:48:25-92
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:51:9-57:20
+152            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+152-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:52:13-118
+153            android:exported="false" >
+153-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:53:13-37
+154            <intent-filter>
+154-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:54:13-56:29
+155                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+155-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:55:17-103
+155-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\6e595de8077386c5c59056952da4feaf\jetified-facebook-core-12.1.0\AndroidManifest.xml:55:25-100
+156            </intent-filter>
+157        </receiver>
+158
+159        <activity
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+160            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+161            android:excludeFromRecents="true"
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+162            android:exported="true"
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+163            android:launchMode="singleTask"
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+165            <intent-filter>
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+166                <action android:name="android.intent.action.VIEW" />
+166-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:17-69
+166-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:25-66
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:17-76
+168-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:27-73
+169                <category android:name="android.intent.category.BROWSABLE" />
+169-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:17-78
+169-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:27-75
+170
+171                <data
+171-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:45:17-47:50
+172                    android:host="firebase.auth"
+172-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:46:21-56
+173                    android:path="/"
+174                    android:scheme="genericidp" />
+174-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:47:21-47
+175            </intent-filter>
+176        </activity>
+177        <activity
+177-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+178            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+178-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+179            android:excludeFromRecents="true"
+179-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+180            android:exported="true"
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+181            android:launchMode="singleTask"
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+183            <intent-filter>
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+184                <action android:name="android.intent.action.VIEW" />
+184-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:17-69
+184-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:25-66
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:17-76
+186-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:27-73
+187                <category android:name="android.intent.category.BROWSABLE" />
+187-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:17-78
+187-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:27-75
+188
+189                <data
+189-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:45:17-47:50
+190                    android:host="firebase.auth"
+190-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:46:21-56
+191                    android:path="/"
+192                    android:scheme="recaptcha" />
+192-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:47:21-47
+193            </intent-filter>
+194        </activity>
+195
+196        <service
+196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+197            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+197-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+198            android:enabled="true"
+198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+199            android:exported="false" >
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+200            <intent-filter>
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+201                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\34ea459dfe9c8b6aefd515bf094cec29\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:17-76
+203-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\8fe14c81838f217bd5020a2b55411b6d\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:27-73
+204            </intent-filter>
+205        </service>
+206
+207        <provider
+207-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\187070fed61dc6baf38c8df97b241c2a\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+208            android:name="com.google.firebase.provider.FirebaseInitProvider"
+208-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\187070fed61dc6baf38c8df97b241c2a\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+209            android:authorities="com.example.hospital_finance_app.firebaseinitprovider"
+209-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\187070fed61dc6baf38c8df97b241c2a\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+210            android:directBootAware="true"
+210-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\187070fed61dc6baf38c8df97b241c2a\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+211            android:exported="false"
+211-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\187070fed61dc6baf38c8df97b241c2a\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+212            android:initOrder="100" />
+212-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\187070fed61dc6baf38c8df97b241c2a\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+213
+214        <activity
+214-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+215            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+215-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+216            android:excludeFromRecents="true"
+216-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+219        <!--
+220            Service handling Google Sign-In user revocation. For apps that do not integrate with
+221            Google Sign-In, this service will never be started.
+222        -->
+223        <service
+223-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+224            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+224-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+225            android:exported="true"
+225-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+226            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+226-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+227            android:visibleToInstantApps="true" />
+227-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b0c967d11dc02846e221d2ad38870e4e\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+228
+229        <activity
+229-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\c2889fe49f5930fcea02be33d4203194\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+230            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+230-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\c2889fe49f5930fcea02be33d4203194\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+231            android:exported="false"
+231-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\c2889fe49f5930fcea02be33d4203194\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+232            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+232-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\c2889fe49f5930fcea02be33d4203194\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+233
+234        <receiver
+234-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:29:9-33:20
+235            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+235-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:30:13-85
+236            android:enabled="true"
+236-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:31:13-35
+237            android:exported="false" >
+237-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:32:13-37
+238        </receiver>
+239
+240        <service
+240-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:35:9-38:40
+241            android:name="com.google.android.gms.measurement.AppMeasurementService"
+241-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:36:13-84
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:37:13-35
+243            android:exported="false" />
+243-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:38:13-37
+244        <service
+244-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:39:9-43:72
+245            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+245-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:40:13-87
+246            android:enabled="true"
+246-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:41:13-35
+247            android:exported="false"
+247-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:42:13-37
+248            android:permission="android.permission.BIND_JOB_SERVICE" />
+248-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\9741fda77b994b9682e2524f6a80ee2f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:43:13-69
+249
+250        <meta-data
+250-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b187fa86197afc478a661ad9c66d192f\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+251            android:name="com.google.android.gms.version"
+251-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b187fa86197afc478a661ad9c66d192f\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+252            android:value="@integer/google_play_services_version" />
+252-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Jeet\.gradle\caches\transforms-2\files-2.1\b187fa86197afc478a661ad9c66d192f\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+253    </application>
+254
+255</manifest>
