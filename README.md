@@ -1,6 +1,6 @@
 # hospital_finance_app
 
-A new Flutter project.
+This app is used to help clinics with their billing and operations.
 
 ## Getting Started
 
